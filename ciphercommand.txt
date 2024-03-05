@@ -1,0 +1,9 @@
+Name: Jared Ball
+
+Commands within the program:
+
+"encrypt(input)": Encrypt any input the user enters
+"decrypt(input)": Decrypt any input the user enters
+"unary(number)": Convert any number the user enters into unary
+"encode(input)": Reverses any input the user enters
+"exit": Exits the program when entered at any time
