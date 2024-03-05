@@ -1,0 +1,28 @@
+Commands: encrypt(input), decrypt(input), unary(number), encode(input), exit
+Enter a command: encrypt(Secret Business)
+Encrypted: Xjhwjy%Gzxnsjxx
+
+Commands: encrypt(input), decrypt(input), unary(number), encode(input), exit
+Enter a command: decrpt(Xjhwjy%Gzxnsjxx)
+Invalid format, please try again.
+
+Commands: encrypt(input), decrypt(input), unary(number), encode(input), exit
+Enter a command: decrypt(Xjhwjy%Gzxnsjxx)
+Decrypted: Secret Business
+
+Commands: encrypt(input), decrypt(input), unary(number), encode(input), exit
+Enter a command: unary(8)
+Unary: 111111110
+
+Commands: encrypt(input), decrypt(input), unary(number), encode(input), exit
+Enter a command: encode(Racecar)
+Encoded: racecaR
+
+Commands: encrypt(input), decrypt(input), unary(number), encode(input), exit
+Enter a command: encode(Forwards & Backwards)
+Encoded: sdrawkcaB & sdrawroF
+
+Commands: encrypt(input), decrypt(input), unary(number), encode(input), exit
+Enter a command: exit
+
+Process finished with exit code 0
