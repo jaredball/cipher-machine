@@ -1,26 +1,38 @@
-**Cipher-Machine**
+# Cipher-Machine
 
-**Overview:**
+**Cipher-Machine** is a C program that provides a set of utilities for text manipulation, including encryption, decryption, unary number encoding, and string reversal. It supports a variety of commands that can be executed interactively.
 
-This C program offers functionalities for text encryption, decryption, unary number representation, and string encoding. Users can utilize the following commands to perform operations:
+## Features
 
-- **encrypt:** Encrypts user input based on Caesar's cipher.
-- **decrypt:** Decrypts user input based on Caesar's cipher.
-- **unary:** Encodes a number into a unary code.
-- **encode:** Encodes user input in reverse order.
-- **exit:** Exits the program.
+- **Encrypt:** Encrypts user input using Caesar's cipher.
+- **Decrypt:** Decrypts user input using Caesar's cipher.
+- **Unary:** Converts a number into its unary representation.
+- **Encode:** Reverses the input string.
+- **Exit:** Terminates the program.
 
-**Usage:**
+## Commands Overview
 
-1. Run the program.
-2. Enter a command from the provided list.
-3. Follow the command format as specified.
-4. Perform multiple commands within one session.
-5. Use "exit" to terminate the program.
+- `encrypt` - Encrypts the provided text using Caesar’s cipher by shifting each character by 5 positions.
+- `decrypt` - Decrypts the encrypted text by reversing the Caesar cipher (shifts characters back by 5 positions).
+- `unary` - Converts a non-negative integer to its unary code
+- `encode` - Reverses the order of characters in the input string.
+- `exit` - Exits the program.
 
-**Implementation Details:**
+## Usage
 
-- **encrypt:** Shifts characters in the input string by 5 positions to encrypt the text.
-- **decrypt:** Reverses the encryption process by shifting characters back by 5 positions.
-- **unary:** Converts a non-negative integer input into unary code.
-- **encode:** Reverses the order of characters in the input string.
+1. **Start the Program:** Run the compiled `Cipher-Machine` program.
+2. **Enter a Command:** Choose from the available commands (`encrypt`, `decrypt`, `unary`, `encode`, or `exit`).
+3. **Follow the Prompts:** Input any necessary data when prompted. Each command will specify its required input format.
+4. **Multiple Commands:** You can run multiple commands in a single session. The program will prompt for the next command after completing each one.
+5. **Exit the Program:** Type `exit` to terminate the program.
+
+## Implementation Details
+
+- **Encrypt Command:** Each character in the input string is shifted by 5 positions in the alphabet to encrypt the text.
+- **Decrypt Command:** The decryption process shifts the characters back by 5 positions, reversing the encryption.
+- **Unary Command:** Converts the given non-negative integer into its unary representation, where `n` is represented as `n` ones.
+- **Encode Command:** Reverses the order of characters in the input string.
+
+--- 
+
+This version adds a clearer explanation of the commands and provides an example of how the program works, along with a basic structure for compilation and usage.
