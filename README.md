@@ -1,4 +1,4 @@
-# Cipher-Machine
+# Cipher Machine
 
 **Cipher-Machine** is a C program that provides a set of utilities for text manipulation, including encryption, decryption, unary number encoding, and string reversal. It supports a variety of commands that can be executed interactively.
 
