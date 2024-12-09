@@ -32,7 +32,3 @@
 - **Decrypt Command:** The decryption process shifts the characters back by 5 positions, reversing the encryption.
 - **Unary Command:** Converts the given non-negative integer into its unary representation, where `n` is represented as `n` ones.
 - **Encode Command:** Reverses the order of characters in the input string.
-
---- 
-
-This version adds a clearer explanation of the commands and provides an example of how the program works, along with a basic structure for compilation and usage.
